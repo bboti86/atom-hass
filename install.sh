@@ -11,7 +11,8 @@ sudo apt-get install libssl-dev libxml2-dev libxslt1-dev libjpeg-dev libffi-dev 
 
 echo Installing Atom packages
 python3 -m pip install 'python-language-server[all]'
-apm install atom-ide-ui ide-python minimap atom-file-icons atom-material-syntax atom-material-ui
+apm install atom-ide-ui ide-python minimap atom-file-icons atom-material-syntax atom-material-ui highlight-selected atom-beautify
+
 
 echo Cloning repository
 mkdir ~/hass
